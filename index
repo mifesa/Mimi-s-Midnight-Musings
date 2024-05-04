@@ -39,4 +39,38 @@
 
     <script src="script.js"></script>
   </body>
+=======
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horror Coquette</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Horror Coquette</h1>
+        <button id="searchBtn">Search</button>
+        <button id="homeBtn">Home</button>
+        <button id="aboutBtn">About</button>
+        <button id="reviewsBtn">Reviews</button>
+    </header>
+
+    <section id="aboutSection">
+        <h2>About Horror Coquette</h2>
+        <p>Welcome to Horror Coquette, where we explore the thrilling world of horror with a hint of flirtation. Dive into our articles and reviews for a spine-tingling experience like no other.</p>
+    </section>
+
+    <section id="reviewsSection">
+        <h2>Latest Reviews</h2>
+        <div class="review">
+            <img src="poster1.jpg" alt="Movie Poster">
+            <p>Date: May 1, 2024</p>
+            <p>Reviewer: Jane Doe</p>
+            <button class="reviewBtn" data-review="review1.html">Read Review</button>
+        </div>
+        <!-- Add more review divs as needed -->
+    </section>
+
+    <script src="script.js"></script>
+</body>
 </html>
